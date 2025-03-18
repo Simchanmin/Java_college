@@ -15,7 +15,8 @@ for(int j=2; j<10; j++){
 		out.println(j+ "*" +i+ "=" +j*i+ "<br>");
 		
 	}
-}	
+	out.println(j + "단 끝<br>");
+}
 	
 	
 %> 

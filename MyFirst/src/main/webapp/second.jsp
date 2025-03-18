@@ -8,13 +8,19 @@
 <body>
 test<br>
 <%
-	int nTemp1 = 2;
-	int nTemp2 = 3;
 	
-	int nTemp3 = nTemp1 + nTemp2; 
-	out.println("nTemp3 = " + nTemp3);
+	for(int i=2; i<10; i++){
+		
+		
+		out.println(2+ "*" +i+ "=" +2*i+ "<br>");
+	}
+	
+	
+	
+%> 
 
-%>
-<%="nTemp3" %>
+
+
+
 </body>
 </html>

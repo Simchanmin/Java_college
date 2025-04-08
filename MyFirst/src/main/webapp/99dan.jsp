@@ -4,10 +4,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>second</title>
+<title>99dan</title>
 </head>
 <body>
-	
 	<br>
 	<%
 /*for(int j=2; j<10; j++){	

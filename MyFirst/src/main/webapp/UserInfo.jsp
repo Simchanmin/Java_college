@@ -9,6 +9,7 @@
 <body>
 	
 <%
+	String sTest = request.getParameter("test");
 	request.setCharacterEncoding("UTF-8");
 	String sName = request.getParameter("nName");
 	String sBirY = request.getParameter("nBirY");
@@ -35,11 +36,11 @@
 	
 %>
 <%
-	String nYYYY = sBirY.substring(0,3);
-	int sYYYY = Integer.parseInt(nYYYY);
-	int nAge = 2025 - sYYYY;
-	out.println(sName + "의 나이는 " + nAge + "살입니다." + "<br>" );
-
+// 	String nYYYY = sBirY.substring(0,3);
+// 	int sYYYY = Integer.parseInt(nYYYY);
+// 	int nAge = 2025 - sYYYY;
+// 	out.println(sName + "의 나이는 " + nAge + "살입니다." + "<br>" );
+	out.println(sTest);
 
 %>
 	

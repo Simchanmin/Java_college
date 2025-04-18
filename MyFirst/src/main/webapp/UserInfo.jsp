@@ -9,9 +9,9 @@
 <body>
 	
 <%
-	String sTest = request.getParameter("test");
+// 	String sTest = request.getParameter("test");
 	request.setCharacterEncoding("UTF-8");
-	String sName = request.getParameter("nName");
+	String sName = request.getParameter("nText");
 	String sBirY = request.getParameter("nBirY");
 	String sBirM = request.getParameter("nBirM");
 	String sBirD = request.getParameter("nBirD");
@@ -26,6 +26,7 @@
 	String sCmt = request.getParameter("nCmt");
 	out.println("이름: " + sName + "<br>");
 	out.println("생년월일: " + sBirY + "-" + sBirM + "-" + sBirD + "<br>");
+	
 	out.println("성별: " + sSex + "<br>");
 	out.println("취미1: " + sHby1 + "<br>");
 	out.println("취미2: " + sHby2 + "<br>");
@@ -36,11 +37,11 @@
 	
 %>
 <%
-// 	String nYYYY = sBirY.substring(0,3);
-// 	int sYYYY = Integer.parseInt(nYYYY);
-// 	int nAge = 2025 - sYYYY;
-// 	out.println(sName + "의 나이는 " + nAge + "살입니다." + "<br>" );
-	out.println(sTest);
+	String nYYYY = sBirY.substring(0,3);
+	int sYYYY = Integer.parseInt(nYYYY);
+	int nAge = 2025 - sYYYY;
+	out.println(sName + "의 나이는 " + nAge + "살입니다." + "<br>" );
+// 	out.println(sTest);
 
 %>
 	

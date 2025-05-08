@@ -11,7 +11,7 @@
 <%
 // 	String sTest = request.getParameter("test");
 	request.setCharacterEncoding("UTF-8");
-	String sName = request.getParameter("nText");
+	String sName = request.getParameter("nName");
 	String sBirY = request.getParameter("nBirY");
 	String sBirM = request.getParameter("nBirM");
 	String sBirD = request.getParameter("nBirD");

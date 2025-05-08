@@ -8,17 +8,13 @@
 </head>
 <body>
 	<%
-	String sEnd = request.getParameter("nEnd");
-	int End = Integer.parseInt(sEnd);
+	//int sEnd = Integer.parseInt(request.getParameter("nEnd"));
+	//int End = Integer.parseInt(sEnd);
 int count = 0; 
 int No = 0;
 for (int i = 1; i <= 100; i++) { 
 	count = 0;
-	String Num = String.valueOf(i);
-	
-	if(i > End)
-		break;
-	
+	String Num = String.valueOf(i);	
     if("3".equals(Num.substring(0,1))||"6".equals(Num.substring(0,1))||"9".equals(Num.substring(0,1))){
     	count++;
     }

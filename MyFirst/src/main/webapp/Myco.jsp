@@ -14,19 +14,19 @@
 	String sSel = request.getParameter("nSel");
 	int eFir = Integer.parseInt(sFir);
 	int eSen = Integer.parseInt(sSen);
-	int eSel = Integer.parseInt(sSel);
+
 	
 	
-	if(eSel == 1){
+	if(sSel.equals("1")){
 		out.println(eFir + eSen);
 	}
-	else if(eSel == 2){
+	else if(sSel.equals("2")){
 		out.println(eFir - eSen);
 	}
-	else if(eSel == 3){
+	else if(sSel.equals("3")){
 		out.println(eFir * eSen);
 	}
-	else if(eSel == 4){
+	else if(sSel.equals("4")){
 		out.println(eFir / eSen);
 	}
 

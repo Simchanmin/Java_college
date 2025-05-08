@@ -23,11 +23,11 @@
 	
 	남<input type="radio" name = "nSex" value="남">여<input type="radio" name = "nSex" value="여"><br>
 	
-	통신사(KT/LG/SKT)<Select name="nCmu" size="1">
+	통신사(KT/LG/SKT)<select name="nCmu" size="1">
 		<option value="KT">KT
 		<option value="LG">LG
 		<option value="SKT">SKT
-	</Select><br>
+	</select><br>
 	
 	핸드폰<input type="text" size="2" maxlength="3" name = "nTel1">-
 		<input type="text" size="3" maxlength="4" name = "nTel2">-

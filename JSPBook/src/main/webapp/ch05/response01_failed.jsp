@@ -3,14 +3,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Scripting tag</title>
+<meta charset="UTF-8">
+<title>Implicit Objects</title>
 </head>
 <body>
-<%
-    for (int i = 0; i <= 10; i++) {
-        if (i % 2 == 0)
-            out.println(i + "<br>");
-    }
-%>
+		<p>로그인을 실패했습니다.
+		<p><a href="./response01.jsp">로그인 가기</a>
 </body>
 </html>

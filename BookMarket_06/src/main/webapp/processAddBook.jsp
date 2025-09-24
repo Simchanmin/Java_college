@@ -1,4 +1,4 @@
-<%-- TODO : 이 소스코드의 내용 중 TODO 부분을 강의슬라이드의 내용으로 구현하여 제출할 것 --%>
+
 <%@ page contentType="text/html; charset=utf-8"%>
 <%@ page import="dto.Book"%>
 <%@ page import="dao.BookRepository"%>
@@ -32,7 +32,7 @@
 	else
 		stock = Long.valueOf(unitsInStock);
 	
-	// TODO : 강의슬라이드 49페이지의 33행의 내용을 구현할 것
+	BookRepository dao = BookRepository.getInstance();
 
 	Book newBook = new Book();
 	newBook.setBookId(bookId);
@@ -46,5 +46,7 @@
 	newBook.setUnitsInStock(stock);
 	newBook.setCondition(condition);
 
-	// TODO : 강의슬라이드 49페이지의 47~49행의 내용을 구현할 것
+	dao.addBook(newBook);
+	
+	response.sendRedirect("books.jsp");
 %>

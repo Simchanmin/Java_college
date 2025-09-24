@@ -1,11 +1,11 @@
-﻿
+﻿<%-- 소스코드 중 TODO 부분을 강의슬라이드의 내용으로 대체하여 구현할 것 --%>
 <%@ page contentType="text/html; charset=utf-8"%>
 <%@ page import="dto.Book"%>
 <%@ page import="dao.BookRepository"%>
 
 <html>
 <head>
- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel = "stylesheet" href=" ./resource/css/bootstrap.min.css" />
 
 <title>도서 정보</title>
 </head>
@@ -26,7 +26,11 @@
 	    Book book = dao.getBookById(id);
 	%>
 	 <div class="row align-items-md-stretch">	 	
-			<div class="col-md-12">
+	 		<div class="col-md-5">
+				<div class = "col-md-5">
+				    <img src=" ./resources/images/<%= book.getFilename() %>" style="width : 70%" />
+			</div>
+			<div class="col-md-6">
 				<h3><b><%=book.getName()%></b></h3>
 				<p><%=book.getDescription()%>
 				<p><b>도서코드 : </b><span class="badge text-bg-danger"> <%=book.getBookId()%></span>							

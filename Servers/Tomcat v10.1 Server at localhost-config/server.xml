@@ -142,7 +142,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="MyFirst" path="/MyFirst" reloadable="true" source="org.eclipse.jst.jee.server:MyFirst"/><Context docBase="JSPBook" path="/JSPBook" reloadable="true" source="org.eclipse.jst.jee.server:JSPBook"/><Context docBase="BookMarket_06" path="/BookMarket_06" reloadable="true" source="org.eclipse.jst.jee.server:BookMarket_06"/><Context docBase="BookMarket_07" path="/BookMarket_07" reloadable="true" source="org.eclipse.jst.jee.server:BookMarket_07"/></Host>
+      <Context docBase="MyFirst" path="/MyFirst" reloadable="true" source="org.eclipse.jst.jee.server:MyFirst"/><Context docBase="JSPBook" path="/JSPBook" reloadable="true" source="org.eclipse.jst.jee.server:JSPBook"/><Context docBase="BookMarket_06" path="/BookMarket_06" reloadable="true" source="org.eclipse.jst.jee.server:BookMarket_06"/><Context docBase="BookMarket_07" path="/BookMarket_07" reloadable="true" source="org.eclipse.jst.jee.server:BookMarket_07"/><Context docBase="BookMarket_11" path="/BookMarket_11" reloadable="true" source="org.eclipse.jst.jee.server:BookMarket_11"/><Context docBase="BookMarket_08" path="/BookMarket_08" reloadable="true" source="org.eclipse.jst.jee.server:BookMarket_08"/></Host>
     </Engine>
   </Service>
 </Server>

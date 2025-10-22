@@ -5,16 +5,12 @@
          id="WebApp_ID" 
          version="5.0">
     
-    <display-name>JSPBook</display-name>
+    <display-name>BookMarket_07</display-name>
     
     <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>
         <welcome-file>index.html</welcome-file>
-        <welcome-file>Main.jsp</welcome-file>
+        <welcome-file>welcome.jsp</welcome-file>
     </welcome-file-list>
-    
-    <session-config>
-        <session-timeout>30</session-timeout>
-    </session-config>
     
 </web-app>

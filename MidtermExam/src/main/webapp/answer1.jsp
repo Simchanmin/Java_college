@@ -18,4 +18,4 @@
     out.println("10초 뒤에 이동합니다.");
 %>
 </body>
-</html>
+</html>  

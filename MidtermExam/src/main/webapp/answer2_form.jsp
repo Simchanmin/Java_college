@@ -19,7 +19,7 @@ function validateForm() {
         return false;
     }
     return true;
-}
+} 
 </script>
 </head>
 <body>

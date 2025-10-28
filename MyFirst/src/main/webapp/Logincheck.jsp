@@ -14,7 +14,7 @@
 	out.println("id : " + sId + "<br>");
 	out.println("pwd : " + sPwd + "<br>");
 %>
-<form action="369.jsp" method="post">
+<form action="369.jsp" method="post"> 
 369 실행 <br>
 369 실행 페이지 : 369.jsp <br>
 <input type="text" name="nEnd" value="">까지<br> 

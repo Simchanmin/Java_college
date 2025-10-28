@@ -28,7 +28,7 @@
 		<option value="LG">LG
 		<option value="SKT">SKT
 	</select><br>
-	
+	 
 	핸드폰<input type="text" size="2" maxlength="3" name = "nTel1">-
 		<input type="text" size="3" maxlength="4" name = "nTel2">-
 		<input type="text" size="3" maxlength="4" name = "nTel3"><br>

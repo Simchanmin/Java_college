@@ -10,7 +10,7 @@
 </head>
 <body>
 	DB 연결 테스트<br>
-	<%
+	<% 
 	Connection MyConn = null;
     try {
         String sUrl = "jdbc:mysql://localhost:3306/mydatabase";

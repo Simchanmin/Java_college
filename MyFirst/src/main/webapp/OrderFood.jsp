@@ -54,7 +54,7 @@
 		</select><br> 꿔바로우 (10,000원)<input type="text" size="1" name="nQu">개<br>
 		<input type="radio" name="nRdo" value="1">합계 표시함 <input
 			type="radio" name="nRdo" value="2">합계 표시안함<br>
-		<!--<input type="button" name="nBtn" value="선택" onclick="checkForm()">-->
+		<input type="button" name="nBtn" value="선택" onclick="checkForm()">
 		<img src="./img/ok.png" onclick="checkForm()" width="30" height="30">
 	</form>
 </body>

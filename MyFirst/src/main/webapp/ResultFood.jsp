@@ -14,7 +14,7 @@ String sMu2 = request.getParameter("nMu2");
 String sMu3 = request.getParameter("nMu3");
 String sHot = request.getParameter("nHot");
 String sQu = request.getParameter("nQu");
-String sRdo = request.getParameter("nRdo");
+String sRdo = request.getParameter("nRdo"); 
 
 // 디버깅용 출력
 %>

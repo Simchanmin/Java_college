@@ -16,7 +16,7 @@
 	String sBirM = request.getParameter("nBirM");
 	String sBirD = request.getParameter("nBirD");
 	String sHby1 = request.getParameter("nHby1");
-	String sHby2 = request.getParameter("nHby2");
+	String sHby2 = request.getParameter("nHby2"); 
 	String sHby3 = request.getParameter("nHby3");
  	String sSex = request.getParameter("nSex");
 	String sCmu = request.getParameter("nCmu");

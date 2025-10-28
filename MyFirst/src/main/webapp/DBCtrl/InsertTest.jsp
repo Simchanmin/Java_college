@@ -10,7 +10,7 @@
 </head>
 <body>
 	<%
-	String sName = "이승우";
+	String sName = "이승우"; 
 	int nAge = 23;
 	
 	//DB연결 모듈

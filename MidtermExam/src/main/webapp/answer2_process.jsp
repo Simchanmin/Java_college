@@ -14,4 +14,4 @@
     out.println("학번 : " + studentID + "<br>");
 %>
 </body>
-</html>
+</html> 
